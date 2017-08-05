@@ -96,8 +96,15 @@ a:focus { text-decoration: none; color: #33333;}
 a:hover, a:active { text-decoration: none; color: #33333;}
 
 
-@media only screen and (max-device-width: 667px)
-    and (-webkit-device-pixel-ratio: 2) {
+
+
+
+    @media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
+
 
 #images {
   width: 80%;
@@ -112,8 +119,4 @@ p {
   padding: 50px;
 }
 
-
-
-
-
-    }
+}

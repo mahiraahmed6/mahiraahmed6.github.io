@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    background-color: #EDEDED;
+    font-family: 'Mada', sans-serif;
+    color: #333333;
+    text-align: center;
+}
+
+path {
+	stroke-dasharray:500;
+	stroke-dashoffset: 500;
+	animation: dash 2.5s ease-in-out forwards;
+	opacity: 1;
+}
+
+@keyframes dash {
+	to {
+		stroke-dashoffset: 2;
+		opacity: 1;
+	}
+}
+
+svg {
+	width: 80%;
+	padding: 20px;
+  opacity: 0.5;
+}
+
+body {
+	text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 900;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+p {
+  font-weight: 300;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 150px;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+}
+
+#images {
+    margin: 0 auto;
+    padding: 30px;
+    height: 80%;
+    display: block;
+    border: 2px dotted #333333;
+}
+
+#bday {
+  padding: 30px;
+  border: 2px solid #333333;
+}
+
+#scroll-to-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+a { text-decoration: none; color: #33333;}
+a:visited { text-decoration: none; color: #33333;}
+a:hover { text-decoration: none; color: #33333;}
+a:focus { text-decoration: none; color: #33333;}
+a:hover, a:active { text-decoration: none; color: #33333;}
+
+
+@media only screen and (max-device-width: 667px)
+    and (-webkit-device-pixel-ratio: 2) {
+
+#images {
+  width: 80%;
+  height: auto;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  padding: 50px;
+}
+
+
+
+
+
+    }

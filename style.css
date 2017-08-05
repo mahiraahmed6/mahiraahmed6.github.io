@@ -119,4 +119,35 @@ p {
   padding: 50px;
 }
 
+
 }
+
+
+
+
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px)
+    and (device-width : 414px)
+    and (device-height : 736px)
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+    and (-webkit-device-pixel-ratio : 3)
+{
+#images {
+  width: 80%;
+  height: auto;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  padding: 50px;
+}
+
+
+
+ }
+
